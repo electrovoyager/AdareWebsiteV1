@@ -1,0 +1,85 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #434242;
+  background-image: url(images/bimg.jpg);
+  /*the below three lines are added to make the page responsive in big screens and not applicable to normal small laptop screens.*/
+  /*But it's better to add the below lines for webpages consitency.*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    /*background-color: blue;*/
+    height: 118px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    /*height: 40px;*/
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+main{
+    /*background-color: orangered;*/
+    height: 400px;
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 80px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.7);
+    /*height: 50px;*/
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1{
+  font-size: 84px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  font-size: 20px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*removing underline in <a> tags in <nav>*/
+/*below is a compound selector in css*/
+
+nav a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer p{
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+.maps{
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 50px;
+}
